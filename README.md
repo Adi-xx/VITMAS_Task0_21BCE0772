@@ -2,7 +2,7 @@
 
 ## GIT COMMANDS
 
-#### 1) GIT CONFIG
+### 1) GIT CONFIG
 This command sets the author name and email address to be used with your commits
 
 Syntax -  
@@ -77,7 +77,75 @@ Syntax -
            git show [commit]
            
 ### 12) GIT TAG
-This command is 
+This command is used to give tags to the specfied commit.
+
+Syntax -  
+          
+          git tag [commitID]
+          
+### 13) GIT BRANCH
+Lists all local branches in current repository.
+
+Syntax -  
+          
+          git branch
+          
+This command creates new branch
+
+Syntax -  
+          
+          git branch [branchname]
+          
+This command deletes the feature branch
+
+Syntax -  
+          
+          git branch -d[branch name]
            
    
-  
+### 14) GIT CHECKOUT
+Used to switch from one branch to another. It can also create a new branch and then switch to it
+
+Syntax - 
+
+          git checkout [branchname]
+          git checkout -b[branch name]
+          
+### 15) GIT MERGE
+Merges specified branch history into the current branch.
+
+Syntax - 
+           
+           git merge [branch name]
+           
+### 16) GIT REMOTE
+Used to connect local repository to the remote server.
+
+Syntax -  
+           
+           git remote add[var name][Remote server link]
+           
+### 17) GIT PUSH
+Sends committed changes of master branch/branch commits/pushes all branches to your remote repository.
+
+Syntax -  
+          
+          git push [var name] master
+          git push [var name] branch
+          git push -all[var name]
+          
+### 18) GIT PULL
+Fetches and merges changes on the remote server to your working directory.
+
+Syntax -  
+          
+          git pull [Respo link]
+          
+### 19) GIT STASH
+
+Syntax -  
+          
+          git stash save - Temporarile stores all modified tracked files
+          git stash pop - Restores the most recently stashed files.
+          git stash list - Lists all stashed changesets
+          git stash drop - Discards the most recently stashed changeset.
