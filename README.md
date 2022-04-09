@@ -52,10 +52,32 @@ Syntax -
 Lists all files that have to be committed.
 
 Syntax - 
+
            git status
 
 ### 9) GIT RM
 This command deletes the files from your working directory and stages the deletion.
 
 Syntax -
+
            git rm[file]
+
+### 10) GIT Log
+This command is used to list the version history for the current branch.
+
+Syntax -
+
+           git log
+           
+### 11) GIT SHOW
+This command shows the metadata and content changes of the specified commit.
+
+Syntax - 
+
+           git show [commit]
+           
+### 12) GIT TAG
+This command is 
+           
+   
+  
