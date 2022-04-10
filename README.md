@@ -149,3 +149,7 @@ Syntax -
           git stash pop - Restores the most recently stashed files.
           git stash list - Lists all stashed changesets
           git stash drop - Discards the most recently stashed changeset.
+
+## VIDEO DEMONSTRATION
+
+https://youtu.be/rL_uhvL676E
